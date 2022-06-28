@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/assets/formulário/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--para visualização em celulares-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--força o navegador a renderizar com a versão mais recente-->
+        <title>Formulário de Cadastro</title>
+
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href=""><image id="logo" src="C:/Users/Raphael/OneDrive/Documentos/pasta1/HTML E CSS/PROJETOS/assets/formulário/image/logoC.png" /></a>
+                </div>
+               
+                <div class="menu">
+                    <h1>FORMULÁRIO DE CADASTRO</h1>
+                </div> 
+            </div>
+        </header>
+
+        <div class="main">
+            <fieldset>
+                <form action="" method="POST">
+
+                    <div class="all">
+                        <div class="dadoscadastro">
+                            <div class="one">
+                                <label>
+                                    E-mail *
+                                    <input type="email" name="email" />
+                                </label>
+                            </div>
+                            <div class="one">
+                                <label>
+                                    Repetir e-mail *
+                                    <input type="email" name="remail" />
+                                </label>
+                            </div>
+
+                            <h2>Dados cadastrais</h2>
+
+                            <div class="cadastrais">
+                                <label>
+                                    Pessoa física
+                                    <input type="radio" name="tpessoa" />
+                                </label>
+                            
+                                <label>
+                                    Pessoa jurídica
+                                    <input type="radio" name="tpessoa" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Nome *
+                                    <input type="text" name="nome" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Sobrenome *
+                                    <input type="text" name="nome" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Sexo *
+                                    <select name="sexo">
+                                        <option>Masculino</option>
+                                        <option>Feminino</option>
+                                    </select></br>
+                                </label>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    CPF *
+                                    <input type="text" name="nome" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Telefone *
+                                    <input type="tel" name="nome" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Celular *
+                                    <input type="text" name="nome" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Nascimento *
+                                    <input type="date" name="nascimento" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    <input type="checkbox" name="novidades" />
+                                    Receber ofertas e novidades por e-mail
+                                </label></br>
+                            </div>
+                            <div id="submit">
+                                <input type="submit" name="cadastro" value="Cadastrar >"/>
+                            </div>
+                        </div>
+
+                        <div class="endereco">
+                            <div class="senha">
+                                <label>
+                                    Senha *
+                                    <input type="password" name="senha" />
+                                </label>
+                            </div>
+                            <div class="senha">
+                                <label>
+                                    Repetir senha *
+                                    <input type="password" name="resenha" />
+                                </label>
+                            </div>
+                            <h2>Endereço de entrega</h2>
+                            <div class="cadastrais">
+                                <label>
+                                    CEP 
+                                    <input type="text" name="cep" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Rua 
+                                    <input type="text" name="rua" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Número 
+                                    <input type="text" name="number" />
+                                </label>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    <input type="checkbox" name="snumber" />
+                                    Sem número
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Complemento 
+                                    <input type="text" name="complemento" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Referência 
+                                    <input type="text" name="referencia" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Bairro 
+                                    <input type="text" name="bairro" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Cidade 
+                                    <input type="text" name="cidade" />
+                                </label></br>
+                            </div>
+                            <div class="cadastrais">
+                                <label>
+                                    Estado 
+                                    <input type="text" name="estado" />
+                                </label></br>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+
+        </div>
+
+        <div class="footerg">
+            <footer>
+                © Copyright - Todos os direitos reservados - por Raphael Melo.
+            </footer>
+        </div>
+
+    </body>
+</html>
